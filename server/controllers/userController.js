@@ -59,18 +59,6 @@ export const updateProfile=async(req,res)=>{
     try {
         const {profilePic,fullName,bio}=req.body;
         const userId=req.user._id;
-
-        // // Debug logs to help diagnose update issues
-        // console.log('updateProfile called for user:', userId);
-        // console.log('profilePic present:', !!profilePic);
-        // if (profilePic) {
-        //     console.log('profilePic size (chars):', profilePic.length);
-        //     if (profilePic.length > 4 * 1024 * 1024) {
-        //         console.warn('profilePic payload is large (>4MB). Consider increasing express.json limit or resizing the image before upload.');
-        //     }
-        // }
-        // console.log('fullName:', fullName, 'bio length:', bio ? bio.length : 0);
-
         let updatedUser;
         if(!profilePic){
             // return the updated document

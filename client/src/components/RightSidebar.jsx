@@ -26,7 +26,7 @@ const RightSidebar = () => {
         
         {/* Profile Section */}
         <div className='pt-10 flex flex-col items-center gap-2 text-xs font-light mx-auto'>
-          <img src={selectedUser?.profilePic || assets.avatar_icon} alt="" className='w-20 aspect-[1/1] rounded-full'/>
+          <img src={selectedUser?.profilePic || assets.avatar_icon} alt="" className='w-20 aspect-sq rounded-full'/>
           <h1 className='px-10 text-xl font-medium mx-auto flex items-center gap-2'>
             {onlineUsers.includes(selectedUser._id) && <p className='w-2 h-2 rounded-full bg-green-500'></p>}
             {selectedUser.fullName}
@@ -46,7 +46,7 @@ const RightSidebar = () => {
           </div>
         </div>
          {/* Logout Button */}
-        <button onClick={()=> logout()} className='absolute bottom-5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-purple-400 to-violet-600 text-white border-none text-sm font-light py-2 px-20 rounded-full cursor-pointer'>
+        <button onClick={()=> logout()} className='absolute bottom-5 left-1/2 transform -translate-x-1/2 bg-linear-to-r from-purple-400 to-violet-600 text-white border-none text-sm font-light py-2 px-20 rounded-full cursor-pointer'>
           LogOut
         </button>
     </div>
