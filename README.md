@@ -215,7 +215,7 @@ When a conversation is open, the right panel shows the selected user's profile p
 
 | Login / Sign-up | Home — Chat View | Profile Editor |
 |:---:|:---:|:---:|
-| `screenshots/login.png` | `screenshots/home.png` | `screenshots/profile.png` |
+| ![Login](https://github.com/user-attachments/assets/9362af3c-e03c-4b94-84c2-5280fd871a10) | ![Home](https://github.com/user-attachments/assets/9adad6e4-e5ce-498f-a571-01220b152949) | ![Profile](https://github.com/user-attachments/assets/b5fa0d19-a745-4974-b8cd-aad4730563bb) |
 
 ---
 
